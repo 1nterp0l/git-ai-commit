@@ -1,0 +1,63 @@
+<svg width="880" height="360" viewBox="0 0 880 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="360" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="52" y="90" font-family="'Courier New',Courier,monospace" font-size="38" font-weight="700" fill="#e6edf3">git-ai-commit</text>
+  <text x="52" y="124" font-family="'Courier New',Courier,monospace" font-size="14" fill="#58a6ff">✨  AI commit messages · local or cloud · zero friction</text>
+
+  <!-- Badges -->
+  <rect x="52" y="144" width="72" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+  <text x="88" y="159" font-family="'Courier New',Courier,monospace" font-size="11" fill="#79c0ff" text-anchor="middle">Ollama</text>
+  <rect x="132" y="144" width="68" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+  <text x="166" y="159" font-family="'Courier New',Courier,monospace" font-size="11" fill="#79c0ff" text-anchor="middle">OpenAI</text>
+  <rect x="208" y="144" width="84" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+  <text x="250" y="159" font-family="'Courier New',Courier,monospace" font-size="11" fill="#79c0ff" text-anchor="middle">Anthropic</text>
+  <rect x="300" y="144" width="42" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+  <text x="321" y="159" font-family="'Courier New',Courier,monospace" font-size="11" fill="#79c0ff" text-anchor="middle">MIT</text>
+
+  <!-- Features -->
+  <circle cx="62" cy="205" r="4" fill="#3fb950"/>
+  <text x="78" y="210" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c9d1d9">3 suggestions in parallel</text>
+  <circle cx="62" cy="233" r="4" fill="#3fb950"/>
+  <text x="78" y="238" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c9d1d9">conventional · simple · detailed</text>
+  <circle cx="62" cy="261" r="4" fill="#3fb950"/>
+  <text x="78" y="266" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c9d1d9">git hook · emoji · config file</text>
+  <circle cx="62" cy="289" r="4" fill="#3fb950"/>
+  <text x="78" y="294" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c9d1d9">Ollama · OpenAI · Anthropic</text>
+
+  <!-- Install -->
+  <rect x="52" y="316" width="340" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="68" y="334" font-family="'Courier New',Courier,monospace" font-size="13" fill="#3fb950">$</text>
+  <text x="82" y="334" font-family="'Courier New',Courier,monospace" font-size="13" fill="#58a6ff">npm install -g git-ai-commit</text>
+
+  <!-- Divider -->
+  <line x1="438" y1="40" x2="438" y2="320" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Terminal window -->
+  <rect x="464" y="40" width="372" height="280" rx="10" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+  <rect x="464" y="40" width="372" height="34" rx="10" fill="#21262d"/>
+  <rect x="464" y="58" width="372" height="16" fill="#21262d"/>
+  <circle cx="488" cy="57" r="6" fill="#ff5f57"/>
+  <circle cx="508" cy="57" r="6" fill="#febc2e"/>
+  <circle cx="528" cy="57" r="6" fill="#28c840"/>
+  <text x="650" y="62" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e" text-anchor="middle">bash</text>
+
+  <!-- Terminal content -->
+  <text x="482" y="96" font-family="'Courier New',Courier,monospace" font-size="12" fill="#58a6ff">$</text>
+  <text x="496" y="96" font-family="'Courier New',Courier,monospace" font-size="12" fill="#e6edf3">git-ai-commit</text>
+  <text x="482" y="116" font-family="'Courier New',Courier,monospace" font-size="11" fill="#e6edf3">  git-ai-commit v2  ·  Ollama  ·  llama3</text>
+  <text x="482" y="130" font-family="'Courier New',Courier,monospace" font-size="11" fill="#30363d">  ──────────────────────────────────────</text>
+  <text x="482" y="148" font-family="'Courier New',Courier,monospace" font-size="11" fill="#3fb950">✔</text>
+  <text x="498" y="148" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e">Got 3 suggestions</text>
+  <text x="482" y="168" font-family="'Courier New',Courier,monospace" font-size="11" fill="#c9d1d9">  Pick a commit message:</text>
+  <rect x="478" y="192" width="348" height="20" rx="3" fill="#1f3a5f" opacity="0.8"/>
+  <text x="484" y="206" font-family="'Courier New',Courier,monospace" font-size="11" fill="#58a6ff">›</text>
+  <text x="498" y="206" font-family="'Courier New',Courier,monospace" font-size="11" fill="#e6edf3" font-weight="700">feat(auth): add JWT token rotation</text>
+  <text x="498" y="226" font-family="'Courier New',Courier,monospace" font-size="11" fill="#6e7681">  fix(auth): prevent session expiry</text>
+  <text x="498" y="244" font-family="'Courier New',Courier,monospace" font-size="11" fill="#6e7681">  refactor(auth): extract token logic</text>
+  <text x="498" y="262" font-family="'Courier New',Courier,monospace" font-size="11" fill="#6e7681">  ✏  Write my own</text>
+  <text x="498" y="280" font-family="'Courier New',Courier,monospace" font-size="11" fill="#6e7681">  ↺ Regenerate</text>
+  <line x1="478" y1="292" x2="822" y2="292" stroke="#21262d" stroke-width="0.8"/>
+  <text x="482" y="308" font-family="'Courier New',Courier,monospace" font-size="11" fill="#3fb950">✔ Committed:</text>
+  <text x="574" y="308" font-family="'Courier New',Courier,monospace" font-size="11" fill="#e6edf3">feat(auth): add JWT token rotation</text>
+</svg>

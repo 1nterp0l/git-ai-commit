@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/git_ai_commit_banner.png" alt="git-ai-commit banner" width="100%"/>
+  <img src="assets/banner.svg" alt="git-ai-commit banner" width="100%"/>
 </p>
 
 <p align="center">
