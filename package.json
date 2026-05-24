@@ -1,0 +1,21 @@
+{
+  "name": "git-ai-commit",
+  "version": "2.0.0",
+  "description": "AI-powered git commit messages — Ollama, OpenAI, Anthropic. 3 suggestions, zero friction.",
+  "type": "module",
+  "bin": {
+    "git-ai-commit": "./bin/git-ai-commit"
+  },
+  "scripts": {
+    "start": "node bin/git-ai-commit"
+  },
+  "dependencies": {
+    "kleur": "^4.1.5"
+  },
+  "keywords": [
+    "git", "commit", "ai", "ollama", "openai", "anthropic", "cli", "conventional-commits", "llm", "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" }
+}
